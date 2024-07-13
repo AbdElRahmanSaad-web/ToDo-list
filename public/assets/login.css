@@ -1,0 +1,77 @@
+.p-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #15292B;
+    /* Optional: Set a background color */
+  }
+  
+  .card {
+    width: 400px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    /* Optional: Add a box shadow for depth */
+  }
+  
+  .card-header {
+    background-color: #f8f9fa;
+    /* Optional: Set a background color for the header */
+    border-bottom: 1px solid #dee2e6;
+    /* Optional: Add a border at the bottom of the header */
+    padding-bottom: 10px;
+    /* Optional: Adjust padding for header */
+  }
+  
+  .form-control {
+    border-radius: 10px;
+    /* Optional: Rounded corners for form inputs */
+  }
+  
+  .btn-login {
+    border-radius: 10px;
+    /* Optional: Rounded corners for login button */
+  }
+  
+  .p-login label {
+    font-size: 18px !important;
+    color: #15292B;
+    font-weight: 500;
+  }
+  
+  .p-login input {
+    transition: .4s;
+    border-radius: 5px !important;
+  }
+  
+  .p-login input:hover {
+    border-color: #15292B;
+  }
+  
+  .p-login input:focus {
+    box-shadow: none !important;
+    border-color: #15292B !important;
+  }
+  
+  .p-login a {
+    text-decoration: none;
+  }
+  
+  .form-group {
+    position: relative;
+  }
+  
+  .form-control {
+    padding-right: 40px;
+    /* تأكد من وجود مساحة للأيقونة */
+  }
+  
+  .toggle-password {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
