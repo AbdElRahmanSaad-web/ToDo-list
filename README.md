@@ -43,36 +43,36 @@ This is a simple To-Do List application. The application allows users to registe
 
 2. Install backend dependencies
 
-composer install
+        composer install
 
 3. Copy the .env.example file to .env
 
-cp .env.example .env
+        cp .env.example .env
 
 4. Generate an application key
 
-php artisan key:generate
+        php artisan key:generate
 
 5. set up the database
     Create a new MySQL database for the project.
     Update the .env file with your database credentials
 
 
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=your_database_name
-DB_USERNAME=your_database_username
-DB_PASSWORD=your_database_password
+        DB_CONNECTION=mysql
+        DB_HOST=127.0.0.1
+        DB_PORT=3306
+        DB_DATABASE=your_database_name
+        DB_USERNAME=your_database_username
+        DB_PASSWORD=your_database_password
 
 
 6. Run database migrations
 
-php artisan migrate
+        php artisan migrate
 
 7. Start the local development server
 
-php artisan serve
+        php artisan serve
 
 If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
