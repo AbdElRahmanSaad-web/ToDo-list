@@ -47,13 +47,19 @@ This is a simple To-Do List application. The application allows users to registe
 
 3. Copy the .env.example file to .env
 
+   For Windows:
+
+       copy .env.example .env
+   
+   For macOS/Linux:
+   
         cp .env.example .env
 
-4. Generate an application key
+5. Generate an application key
 
         php artisan key:generate
 
-5. set up the database
+6. set up the database
     Create a new MySQL database for the project.
     Update the .env file with your database credentials
 
@@ -66,11 +72,11 @@ This is a simple To-Do List application. The application allows users to registe
         DB_PASSWORD=your_database_password
 
 
-6. Run database migrations
+7. Run database migrations
 
         php artisan migrate
 
-7. Start the local development server
+8. Start the local development server
 
         php artisan serve
 
