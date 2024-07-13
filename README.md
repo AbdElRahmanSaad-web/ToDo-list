@@ -38,8 +38,8 @@ This is a simple To-Do List application. The application allows users to registe
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/yourusername/todo-list-app.git
-   cd todo-list-app
+   git clone https://github.com/AbdElRahmanSaad-web/ToDo-list
+   cd ToDo-list
 
 2. Install backend dependencies
 
